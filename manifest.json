@@ -1,5 +1,5 @@
 {
-    "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDJhLK6fk/BWTEvJhywpk7jDe4A2r0bGXGOLZW4/AdBp3IiD9o9nx4YjLAtv0tIPxi7MvFd/GUUbQBwHT5wQWONJj1z/0Rc2qBkiJA0yqXh42p0snuA8dCfdlhOLsp7/XTMEwAVasjV5hC4awl78eKfJYlZ+8fM/UldLWJ/51iBQwIDAQAB",
+    "key": "Your Chrome Key",
     "name": "Identity test",
     "version": "1.0",
     "manifest_version": 2,
@@ -18,7 +18,7 @@
         "https://*/*"
     ],
     "oauth2": {
-        "client_id": "752846571001-dpo2h2uk98as23hc8foeseldk9lqc5j2.apps.googleusercontent.com",
+        "client_id": "Your-ClientID.apps.googleusercontent.com",
         "scopes": [
             "https://www.googleapis.com/auth/userinfo.email"
         ]

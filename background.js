@@ -19,7 +19,7 @@ chrome.extension.onRequest.addListener(function(request, sender, sendResponse)
             let payload = {"q": q, "u": u, "gid": g_id, "em": email};
             console.log(payload);
             var jax = new XMLHttpRequest();
-            jax.open("POST","http://127.0.0.1:8000/test/text");
+            jax.open("POST","https://xxx.xxxxx.xxx");    // <------ api endpoint -- save to database
             jax.setRequestHeader("Content-Type", "text/plain;charset=UTF-8");
             sen = JSON.stringify(payload);
             jax.send(sen);
